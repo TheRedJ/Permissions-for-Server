@@ -1,0 +1,93 @@
+Default: Member
+Groups:
+  Member:
+    permissions:
+    - essentials.warp.staff
+    - multiverse.portal.access.AI
+    - multiverse.portal.access.AISpawn
+    - multiverse.access.Spawn
+    - multiverse.access.AnarchyIsland
+    - multiverse.access.Anarchy
+    - multiverse.access.Creative
+    - multiverse.access.Factions
+    - multiverse.access.PvE
+    - multiverse.access.SkyBall
+    - essentials.warp.spawn
+    - essentials.helpop
+    - plots.use
+    - plots.plot.2
+    - plots.permpack.basic
+    - plots.permpack.basicinbox
+    - plots.permpack.basicflags
+    - essentials.kit
+    - essentials.kits.[kitname]
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.pay
+    - essentials.afk
+    - essentials.help
+    - essentials.helpop
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.msg.url
+    - essentials.near
+    - essentials.realname
+    - essentials.rules
+    - essentials.back
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tptoggle
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.chat.url
+    interance: []
+    prefix: '&6[&aMember&r&6]'
+    chatColor: RESET
+    nameColor: RESET
+  YouTuber:
+    permissions: []
+    interance: 'Member'
+    prefix: '&6[&4&lYou&f&lTuber&r&6]'
+    chatColor: RESET
+    nameColor: RESET
+  TrialStaff:
+    permissions: []
+    interance: []
+    prefix: '&6[&4&lTrialStaff&r&6]'
+    chatColor: RESET
+    nameColor: RESET
+  Mod:
+    permissions:
+    - essentials.kick
+    - essentials.warn
+    - essentials.mute
+    interance: 'TrialStaff'
+    prefix: '&6[&4&lMod&r&6]'
+    chatColor: RESET
+    nameColor: RESET
+  Admin:
+    permissions:
+    - essentials.kick
+    - essentials.ban
+    - essentials.warn
+    - essentials.tempban
+    - essentials.mute
+    interance: []
+    prefix: '&6[&4&lAdmin&r&6]'
+    chatColor: RESET
+    nameColor: RESET
+  Owner:
+    permissions: []
+    interance: []
+    prefix: '&6[&4&lOwner&r&6]'
+    chatColor: RESET
+    nameColor: RESET
