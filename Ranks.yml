@@ -50,9 +50,9 @@ Groups:
     - essentials.warp.list
     - essentials.chat.url
     interance: []
-    prefix: '&6[&aMember&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    prefix: []
+    chatColor: GRAY
+    nameColor: GRAY
   YouTuber:
     permissions:
     - essentials.fly
