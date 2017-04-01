@@ -5,6 +5,12 @@ Groups:
     - essentials.warp.staff
     - multiverse.portal.access.AI
     - multiverse.portal.access.AISpawn
+    - multiverse.portal.access.AnarchyIsland
+    - multiverse.portal.access.Anarchy
+    - multiverse.portal.access.Creative
+    - multiverse.portal.access.Factions
+    - multiverse.portal.access.PvE
+    - multiverse.portal.access.Skyball
     - multiverse.access.Spawn
     - multiverse.access.AnarchyIsland
     - multiverse.access.Anarchy
@@ -61,14 +67,14 @@ Groups:
     - signs.format
     interance: 'Member'
     prefix: '&6[&4&lYou&f&lTuber&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    chatColor: GRAY
+    nameColor: RED
   TrialStaff:
     permissions: []
     interance: []
     prefix: '&6[&4&lTrialStaff&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    chatColor: GRAY
+    nameColor: RED
   Mod:
     permissions:
     - essentials.kick
@@ -77,10 +83,120 @@ Groups:
     - easysetspawn.help
     - easysetspawn.info
     - easysetspawn.reload
-    interance: 'TrialStaff'
+    - essentials.enchant
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.hat
+    - essentials.heal
+    - essentials.feed
+    - essentials.kit.exemptdelay
+    - essentials.kit.others
+    - essentials.kits.*
+    - essentials.ptime
+    - essentials.repair
+    - essentials.repair.all
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.skull
+    - essentials.skull.others
+    - essentials.skull.spawn
+    - essentials.time
+    - essentials.time.set
+    - essentials.workbench
+    - essentials.pay.multiple
+    - essentials.worth
+    - essentials.kickexempt
+    - essentials.afk.others
+    - essentials.book
+    - essentials.book.author
+    - essentials.book.others
+    - essentials.book.title
+    - essentials.getpos.others
+    - essentials.getpos
+    - essentials.depth
+    - essentials.helpop.receive
+    - essentials.ignoreexempt
+    - essentials.list.hidden
+    - essentials.mail.sendall
+    - essentials.me
+    - essentials.motd
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.multiple
+    - essentials.near.maxexempt
+    - essentials.near.others
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.format
+    - essentials.nick.magic
+    - essentials.nick.others'
+    - essentials.recipe
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.suicide
+    - essentials.geoip.show
+    - essentials.whois
+    - essentials.antioch
+    - essentials.ban.exempt
+    - essentials.broadcast
+    - essentials.burn
+    - essentials.clearinventory
+    - essentials.clearinventory.others
+    - essentials.enderchest
+    - essentials.enderchest.others
+    - essentials.essentials
+    - essentials.ext
+    - essentials.gc
+    - essentials.invsee
+    - essentials.invsee.modify
+    - essentials.jails
+    - essentials.kill
+    - essentials.kill.exempt
+    - essentials.mute.offline
+    - essentials.ping
+    - essentials.socialspy
+    - essentials.weather
+    - essentials.back
+    - essentials.keepxp
+    - essentials.worlds.<worldname>
+    - essentials.jump
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.unlimited
+    - essentials.setwarp
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpaall
+    - essentials.tpall
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.tpohere
+    - essentials.tppos
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.teleport.timer.move
+    - essentials.tptoggle.others
+    - essentials.vanish.interact
+    - essentials.warp.otherplayers
+    - essentials.warps.*
+    - essentials.world
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.geoip.show
+    - essentials.chat.spy
+    - essentials.joinfullserver
+    interance: 'Member'
     prefix: '&6[&4&lMod&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    chatColor: GRAY
+    nameColor: RED
   Admin:
     permissions:
     - essentials.kick
@@ -94,13 +210,123 @@ Groups:
     - easysetspawn.setspawn
     - easysetspawn.teleportothers
     - easysetspawn.setdelay
-    interance: []
+    - essentials.enchant
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.gamemode
+    - essentials.hat
+    - essentials.heal
+    - essentials.feed
+    - essentials.kit.exemptdelay
+    - essentials.kit.others
+    - essentials.kits.*
+    - essentials.ptime
+    - essentials.repair
+    - essentials.repair.all
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.skull
+    - essentials.skull.others
+    - essentials.skull.spawn
+    - essentials.time
+    - essentials.time.set
+    - essentials.workbench
+    - essentials.pay.multiple
+    - essentials.worth
+    - essentials.kickexempt
+    - essentials.afk.others
+    - essentials.book
+    - essentials.book.author
+    - essentials.book.others
+    - essentials.book.title
+    - essentials.getpos.others
+    - essentials.getpos
+    - essentials.depth
+    - essentials.helpop.receive
+    - essentials.ignoreexempt
+    - essentials.list.hidden
+    - essentials.mail.sendall
+    - essentials.me
+    - essentials.motd
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.msg.magic
+    - essentials.msg.multiple
+    - essentials.near.maxexempt
+    - essentials.near.others
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.format
+    - essentials.nick.magic
+    - essentials.nick.others'
+    - essentials.recipe
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.seen.ipsearch
+    - essentials.suicide
+    - essentials.geoip.show
+    - essentials.whois
+    - essentials.antioch
+    - essentials.ban.exempt
+    - essentials.broadcast
+    - essentials.burn
+    - essentials.clearinventory
+    - essentials.clearinventory.others
+    - essentials.enderchest
+    - essentials.enderchest.others
+    - essentials.essentials
+    - essentials.ext
+    - essentials.gc
+    - essentials.invsee
+    - essentials.invsee.modify
+    - essentials.jails
+    - essentials.kill
+    - essentials.kill.exempt
+    - essentials.mute.offline
+    - essentials.ping
+    - essentials.socialspy
+    - essentials.weather
+    - essentials.back
+    - essentials.keepxp
+    - essentials.worlds.<worldname>
+    - essentials.jump
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.unlimited
+    - essentials.setwarp
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tpaall
+    - essentials.tpall
+    - essentials.tpdeny
+    - essentials.tphere
+    - essentials.tpo
+    - essentials.tpohere
+    - essentials.tppos
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.teleport.timer.move
+    - essentials.tptoggle.others
+    - essentials.vanish.interact
+    - essentials.warp.otherplayers
+    - essentials.warps.*
+    - essentials.world
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.geoip.show
+    - essentials.chat.spy
+    - essentials.joinfullserver
+    interance: 'Member'
     prefix: '&6[&4&lAdmin&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    chatColor: GRAY
+    nameColor: RED
   Owner:
     permissions: []
     interance: []
     prefix: '&6[&4&lOwner&r&6]'
-    chatColor: RESET
-    nameColor: RESET
+    chatColor: GRAY
+    nameColor: RED
