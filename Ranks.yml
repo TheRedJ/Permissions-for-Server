@@ -20,7 +20,7 @@ Groups:
     - plots.permpack.basicinbox
     - plots.permpack.basicflags
     - essentials.kit
-    - essentials.kits.[kitname]
+    - essentials.kits.spade
     - essentials.balance
     - essentials.balance.others
     - essentials.balancetop
@@ -54,7 +54,10 @@ Groups:
     chatColor: RESET
     nameColor: RESET
   YouTuber:
-    permissions: []
+    permissions:
+    - essentials.fly
+    - t.use.balck
+    - 
     interance: 'Member'
     prefix: '&6[&4&lYou&f&lTuber&r&6]'
     chatColor: RESET
