@@ -56,8 +56,8 @@ Groups:
   YouTuber:
     permissions:
     - essentials.fly
-    - t.use.balck
-    - 
+    - coloredchat.use.*
+    - signs.format
     interance: 'Member'
     prefix: '&6[&4&lYou&f&lTuber&r&6]'
     chatColor: RESET
